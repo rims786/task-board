@@ -20,7 +20,7 @@ This is a simple task board application that allows users to create and manage d
 ## Setup and Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/task-board.git
+    git clone https://github.com/rims786/task-board.git
     cd task-board
     ```
 
@@ -41,14 +41,14 @@ This is a simple task board application that allows users to create and manage d
 
 ## API Endpoints
 - **GET /api/tasklists**: Get all task lists
-	- Example: http://localhost:8081/api/tasks/1
+	- Example: http://localhost:8080/api/tasks/1
 - **POST /api/tasklists**: Create a new task list
 	- Example: http://localhost:8080/api/tasklists?name=NewTaskList
 - **POST /api/tasklists/{listId}/tasks**: Add a new task to a list
 	- Example: http://localhost:8080/api/tasklists/1/tasks?name=MyTask&description=Description
 - **PUT /tasks/{taskId}**: Update a task
 - **DELETE /tasks/{taskId}**: Delete a task
-	- Example: http://localhost:8081/api/tasks/1
+	- Example: http://localhost:8080/api/tasks/1
 - **DELETE /tasklists/{listId}**: Delete a task list
 	- Example: http://localhost:8080/api/tasklists/1
 - **PUT /tasks/{taskId}/move**: Move a task to a different list
